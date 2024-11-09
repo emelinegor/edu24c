@@ -1,3 +1,8 @@
+/*
+set 0c Pattern1
+Student - Emelin Egor
+09112024
+*/
 #include <iostream>
 using namespace std;
 
