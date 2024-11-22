@@ -7,22 +7,20 @@ int main() {
     int n;
     cin >> n;
 
-    int max_multiple_of_5 = -1; // Инициализация с минимально возможным значением
+    int max = -1; 
 
     for (int i = 0; i < n; ++i) {
         int num;
         cin >> num;
 
-        if (num % 5 == 0) {
-            // Проверяем, является ли число кратным 5.
-            // Если да, то сравниваем его с текущим максимумом.
-            if (num > max_multiple_of_5) {
-                max_multiple_of_5 = num;
+        if (num % 6 == 0) {
+            if (num > max) {
+                max = num;
             }
         }
     }
 
-    cout << max_multiple_of_5 << endl;
+    cout << max << endl;
 
     return 0;
 }
