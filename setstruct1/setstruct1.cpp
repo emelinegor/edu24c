@@ -13,12 +13,13 @@ struct Employee
     long int salary;
     int age;
 };
-Employee john {"John", 45000, 36};
-Employee milla {"Milla", 25000};
 
 int main() 
 {
-    
+
+Employee john {"John", 45000, 36};
+Employee milla {"Milla", 25000};
+
 cout << "Имя: " << john.names << " " << "Зарплата: " << john.salary << " " << "Возвраст: " << john.age << endl;
 cout << "Имя: " << milla.names << " " << "Зарплата: " <<  milla.salary << " " << endl;
 
