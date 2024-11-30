@@ -18,7 +18,9 @@ Employee milla {"Milla", 25000};
 
 int main() 
 {
+    
 cout << "Имя: " << john.names << " " << "Зарплата: " << john.salary << " " << "Возвраст: " << john.age << endl;
 cout << "Имя: " << milla.names << " " << "Зарплата: " <<  milla.salary << " " << endl;
+
     return 0;
 }
