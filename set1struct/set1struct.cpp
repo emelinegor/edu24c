@@ -51,10 +51,11 @@ int main()
     }
 
 
-    cout << averenge;
+    cout << averenge << endl;
+    
     for (int i = 0; i < 5; i++)
         {
-            cout << range[i];
+            cout << range[i] << " ";
         }
 
    return 0;
