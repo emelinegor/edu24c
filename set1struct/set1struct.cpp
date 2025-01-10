@@ -37,7 +37,7 @@ int main()
     double range[4] = {};
     for (int i = 0; i < 5; i++)
     {
-        double range[i] = MGU[i].averengeGrade;
+         range[i] = MGU[i].averengeGrade;
     }
     for (int j = 1; j < 5; j++)
     {
