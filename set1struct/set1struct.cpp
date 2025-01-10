@@ -37,7 +37,11 @@ int main()
     double range[4] = {};
     for (int i = 0; i < 5; i++)
     {
+<<<<<<< HEAD
          range[i] = MGU[i].averengeGrade;
+=======
+        range[i] = MGU[i].averengeGrade;
+>>>>>>> c895225d015a92c53da311b7615fda1763e1cfcc
     }
     for (int j = 1; j < 5; j++)
     {
@@ -51,10 +55,11 @@ int main()
     }
 
 
-    cout << averenge;
+    cout << averenge << endl;
+    
     for (int i = 0; i < 5; i++)
         {
-            cout << range[i];
+            cout << range[i] << " ";
         }
 
    return 0;
